@@ -1,0 +1,134 @@
+title {
+   
+}
+
+body {
+    background-color: #EADDCA;
+}
+
+h1 {
+    text-align: center;
+    font-family: time new roman, serif;
+    font-size: 50px;
+    padding-top: 100px;
+}
+
+h2 {
+    text-align: center;
+    font-family: time new roman, serif;
+    font-style: italic;
+    padding-bottom: 50px;
+}
+
+h3 {
+    font-family: time new roman, serif;
+}
+
+h4 {
+    text-align: center;
+    padding: 50px;
+    font-family: time new roman, serif;
+}
+
+p {
+    font-family: time new roman, serif;
+    font-size: 25px;
+}
+
+footer {
+    text-align: right;
+    padding: 50px;
+    font-family: time new roman, serif;
+}
+
+
+
+div {
+
+}
+
+h4 {
+
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+img {
+  width: 70%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.module h2 {
+  font-size: 1em;
+  container-name: sidebar
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  background-color: #EADDCA;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #DBD0BF;
+    animation: fadeEffect 1s;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    animation: fadeEffect 1s;
+}
+
+/* Style the tab content */
+.tabcontent {
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s;
+  width: 600px;
+  align-content: left;
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Fade in tabs */
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
